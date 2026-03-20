@@ -22,6 +22,7 @@ mkdir -p /temp/asis/india/hyd
 curl https://site.com/file -o
 wget https://site.com/file -o some-file-name.txt
 ```
+---
 ## 4. To check OS- releases
 > `*release*` includes astrik as a wildcard becoz its formats will be differnet for each distro ,So,it is better to use wildcard
 ```
