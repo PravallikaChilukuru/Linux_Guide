@@ -6,7 +6,7 @@ service start https # starts the webserver as well
 ```
 ---
 - Systemctl commands Usage:
-    > start #to start the service
-    >> stop #to stop the service
-    >> enable #to start the service at startup
-    >> disable #to disable the service at startup 
+   - `start` — Starts the service immediately.
+   - `stop` — Stops the service immediately.
+   - `enable` — Configures the service to start automatically on boot.
+   - `disable` — Prevents the service from starting automatically on boot.
