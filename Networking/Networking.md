@@ -3,3 +3,12 @@
   - `sudo ip addr add 172.16.239.10/24 dev eth0`
   - `sudo ip addr add 172.16.238.15/24 dev eth0` --Possible
   - `sudo ip addr add 172.16.238.15/24 dev eth1` --Not possible
+- To make the host in linux to pass the packets
+  - `cat /proc/sys/net/ipv4/ip_forward` - Not persistent
+  - `/etc/sysctl.config` - adding value here is persistent
+  - `ip link` - To list and modify all the network interfaces
+  - `ip route add default via <ip_addr>` - To add the route non persistent
+- To make it persistent, all the route changes
+   - `/etc/network/interfaces` - To add the details
+- To add the name of system instead of Ip we need to update `/etc/hosts`
+    - `cat /etc/hosts`
