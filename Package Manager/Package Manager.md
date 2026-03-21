@@ -3,7 +3,9 @@
   - `rpm -e telnet` (Uninstall package)
   - `rpm -q telnet` (Query Package) - helps to install all the dependencies and package together
   - `rpm -qa` #To list all the available packages
-<img width="670" height="187" alt="image" src="https://github.com/user-attachments/assets/a6d713a8-90da-4b43-9a61-32bf1a3e3f0f" />
+<img width="670" height="187" alt="image" src="https://github.com/user-attachments/assets/a6d713a8-90da-4b43-9a61-32bf1a3e3f0f"/>
+
+
 ---
 - yum uses rpm underneath it
   - `yum install ansible` - Downloads ansible including with dependencies
