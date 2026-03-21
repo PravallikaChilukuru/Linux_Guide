@@ -27,3 +27,6 @@ wget https://site.com/file -o some-file-name.txt
 > `*release*` includes astrik as a wildcard becoz its formats will be differnet for each distro ,So,it is better to use wildcard
 ```
 cat /etc/*release*
+```
+---
+## 5. 
